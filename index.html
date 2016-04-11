@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>龙江高校志愿服务网</title>
+   <style>
+   @font-face {font-family: 'iconfont';
+    src: url('iconfont.eot'); /* IE9*/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+ }
+/*使用icon的声明*/
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+	}
+	/*定义icon的格式*/
+	/*以上均为icon的使用*/
+  *{margin:0px;padding:0px}
+  #all{
+  width:1280px;
+  margin:auto;
+  }
+  #top{
+  height:7px;
+  background:#F62E2E;
+  }
+  #gray{
+  width:1280px;
+  height:480px;
+  background:#706E6F;
+  }
+  #nav{
+  height:120px;
+  }
+  #nav a{  
+  text-decoration:none;
+  color:black;}
+  #nav img{
+  margin-left:160px;
+  }
+  #nav .nav{
+  width:720px;
+  height:80px;
+  float:right;
+  margin-right:80px;}
+  #nav ul li{
+  font-family:黑体;
+  float:left;
+  list-style:none;
+  width:90px;
+  height:80px;
+  line-height:120px;
+  text-align:center;
+  color:#ffffff;
+  }
+  #nav ul li:hover{
+  background:#F62E2E;
+  border-radius:5px}
+  /*导航栏结束*/
+  #bannerout{
+  width:960px;
+  height:400px;
+  margin:auto;
+  box-shadow: 10px 10px #b3b3b3;
+  }
+  #banner {
+  width:100%;
+  height:100%;
+  }
+  #zyobject{
+  width:980px;
+  height:320px;
+  margin-top:80px;
+  margin-left:150px;
+  font-size:18px;
+  }
+  #zyobject a{
+  color:black;
+  text-decoration:none;
+  }
+  #zyobject a:hover{
+  font-size:17.8px;
+
+  }
+  #zyobject .zyobject{
+  width:225px;
+  height:320px;
+  float:left;
+  margin:10px;
+  }
+  #zyobject .obimg{
+  width:225px;
+  height:160px;
+  background:blue;
+  }
+  #zyobject .obimg img{
+  height:100%;
+  width:100%;
+  }
+  #zyobject .obimg img:hover{
+  transform:scale(1.1);
+  transition-duration: 0.5s;
+  }
+  #share{
+    width:980px;
+  height:330px;
+  
+  margin-top:20px;
+  margin-left:150px;
+  }
+  #share div{
+  float:left
+  }
+  #shareleft{
+  width:470px;
+  height:330px;
+  font-size:16px;
+  text-align:center
+  }
+   #share a{
+  color:black;
+  text-decoration:none;
+  }
+  #shareleft a:hover{
+  font-size:15.8px;
+
+  }
+  #shareleft b{
+  font-size:17px;
+  color:#F62E2E;
+  
+  }
+  #shareleft p{
+  margin-top:8px
+  }
+  #share .share1{
+   width:225px;
+  height:160px;
+  float:left;
+  margin-left:8px;
+  background:#a0a0a0;
+  border-radius:5px;
+  padding-top:6px;
+  }
+  #share .share2{
+    width:225px;
+  height:160px;
+  float:left;
+  margin-left:8px;
+  margin-top:8px;
+  background:#a0a0a0;
+  border-radius:5px;
+  padding-top:6px;
+  }
+  #video{
+  margin-left:20px;
+  margin-top:20px
+  }
+  #video-play{
+  width:470px;
+  height:264px;
+  }
+  #video-use{
+  width:470px;
+  height:35px;
+  margin-left:20px;
+  background:#5e5e5e
+  }
+  #video-use .iconfont{
+  font-size:30px;
+  color:#ffffff;
+  }
+  #video-use i:hover{
+  color:pink;
+  transform:scale(1.1);
+  transition-duration: 0.5s;
+  }
+  #full{
+  float:right
+  }
+  #work{
+  width:980px;
+  height:160px;
+  margin:auto;
+  margin-top:20px;
+  }
+
+  #work .worka{
+  width:225px;
+  height:160px;
+  margin-left:10px;
+  float:left;
+  font-size:16px;
+  line-height:20px
+  }
+  #work .workb{
+  width:225px;
+  height:40px;
+  background:#F62E2E;
+  font-size:18px;
+  color:#ffffff;
+  font-family:黑体;
+  text-align:center;
+  line-height:40px;
+  }
+    #work a{
+  color:black;
+  text-decoration:none;
+  }
+  #work a:hover{
+  font-size:15.8px;
+
+  }
+  #down{
+  margin-top:10px;
+  height:16px;
+  background:#706E6F;
+  }
+  #over{
+    height:380px;
+	background:#F62E2E;
+	margin:auto;
+	color:#ffffff;
+  }
+  #over .school{
+  margin-left:220px;
+  font-size:16px;
+  font-family:"黑体";
+  float:left
+  }
+  #over .school b{
+  font-size:20px;
+  }
+  #over a{
+ color:#ffffff;
+  }
+  #over a:hover{
+  text-decoration:none
+  }
+  #logo{
+  height:120px;
+  background:#F62E2E;
+  width:1280px;
+  margin-top:2px;
+  text-align:center;
+  }
+ #logo img{ 
+ height:100%;
+ }
+
+  </style>
+ </head>
+ <body>
+ <div id="all"><!--确定主界面处在正中间，1280为宽度-->
+  <div id="top"></div><!--最上方的红色条纹-->
+  <div id="gray">
+  <div id="nav">
+  <img src="./index_files/logo.png">
+  <div class="nav">
+  <ul>
+  <a href="#"><li style="background:#F62E2E;border-radius:5px;">首页</li></a>
+   <a href="#"><li>实时动态</li></a>
+    <a href="#"><li>志愿学校</li></a>
+	 <a href="#"><li>活动中心</li></a>
+	 <a href="#"><li>志愿心声</li></a>
+	 <a href="#"><li>志愿者风采</li></a>
+  </ul>
+  </div>
+  </div><!--导航栏结束-->
+  <div id="bannerout"><a href="banner1link.html" id="bannerlink"><img src="img/banner1.jpg" id="banner"></a></div>
+  </div><!--灰色结束-->
+
+<div id="top"></div>
+<div id="zyobject">
+<div class="zyobject"><div class="obimg"><a href="object1link.html"><img src="img/object1.jpg"></a></div>  
+    <a href="object1link.html">比尔·盖茨和妻子梅琳达一直热心于慈善公益活动，为此，他们成立了一个以自己名字命名的慈善基金会，每年定期向基金会捐献15亿美元，用于帮助全球各地的...</a></div>
+
+<div class="zyobject"><div class="obimg"><a href="object2link.html"><img src="img/object2.jpg"></a></div>
+      <a href="object2link.html"><p>自闭症也叫孤独症，“星星的孩子”是人们对自闭症患儿的一种爱称，因为他们就像天上的星星一样活在自己的世界里，本应在遥远的仙境，只是不小心落入了....</p>
+	  </a></div>
+
+<div class="zyobject"><div class="obimg"><a href="#"><img src="img/object3.png"></a></div>
+    <a href="#">
+	<p>她只有9岁，却盖了11座小木屋，养活了小镇上所有的流浪汉
+	“流浪者们需要更多人的帮助！” 这个9岁小女孩的善举， 成为了一股推动改善流浪汉生活的力量.....</p>
+	</a></div>
+
+<div class="zyobject"><div class="obimg"><a href="object4link.html"><img src="img/object4.jpg"></a></div>
+<a href="object4link.html">12岁的Makenna Breading-Goodrich 为了帮助社区里的流浪汉，她花了3个冬天收集了上千件外套并送给了他们。她称自己的这种行为为“Makenna的外套事业...</a></div>
+</div>
+  
+   <div id="share">
+   <div id="shareleft">
+       <div class="share1"><b>哈商大青年志愿者服务中心</b>
+	    <a href="#"><p>&nbsp; &nbsp; 哈尔滨商业大学青年志愿者服务中心是校团委直属的校级组织。以“奉献、友爱、互助、进步”为宗旨，以指导并协调全校青年志愿者活动为工.....</p></a>
+	   </div>
+	   <div class="share1"><b>哈工大青年志愿者协会</b>
+	    <a href="#"><p>&nbsp;&nbsp;哈尔滨工业大学青年志愿者协会是哈工大唯一的校属志愿者组织。其前身是哈尔滨工业大学常青藤志愿者社团.协会成立于2006年，现有注册志愿者....</p></a>
+	   </div>
+       <div class="share2"><b>哈工程青年志愿者协会</b>
+	   <a href="#"><p>&nbsp;&nbsp;哈尔滨工程大学青年志愿者协会（Harbin Engineering University Youth Volunteers Association）是隶属于校团委的十大正规学生组织之.......</p></a>
+	   </div>
+	   <div class="share2"><b>哈理工校青协</b>
+	   <a href="#"><p>&nbsp;&nbsp;哈理工校青协（HUST Young Volunteers Association)由志愿从事社会公益与社会保障事业的哈理工青年学生组成全校性青年团体,协会奉行奉献.友爱...</p></a>
+	   </div>
+	   </div>
+	   <div id="video">
+	   <video id="video-play">
+	   <source src="video/video.mp4" type="video/mp4" >
+	   您的浏览器版本过低，不支持播放此视频
+	   </video>
+	   </div>
+	   <div id="video-use">
+	   <a href="javascript:void(0)"><i class="iconfont" id="play" onclick="play()">&#xe605;</i></a>
+	   <a href="javascript:void(0)"><i class="iconfont" id="pause" onclick="pause()">&#xe696;</i></a>
+	   <a href="javascript:void(0)"><i class="iconfont" id="full" onclick="full()">&#xe803;</i></a>
+	   </div>
+   </div>
+  
+  <div id="work">
+  <div class="worka"><div class="workb"><b>无私映红日，青春正当时</b></div>
+  <a href="#">&nbsp; &nbsp;哈尔滨商业大学设计艺术学院团委，于2016年3月5日—6日组织本院学生开展了“无私映红日，青春正当时”纪念雷锋主题系列活动。整个活动分为校园内学习、宣传和校外实践...</a></div>
+  <div class="worka"><div class="workb"><b>种子变绿植，梦想在发芽</b></div>
+  <a href="#">&nbsp; &nbsp;4月28日，哈尔滨商业大学青年志愿者服务中心携手新浪微博协会、绿色文明协会在A区食堂门口顺利开展了第三届绿植领养活动.......</a></div>
+  <div class="worka"><div class="workb"><b>志愿者文化节</b></div>
+  <a href="#">&nbsp; &nbsp;为了树立良好的道德风尚，也为了培养学生尊老爱老的传统美德，轻工学院温暖之旅爱心社以雷锋日为契机，利用周末时间慰问敬老院的孤寡老人.......</a></div>
+  <div class="worka"><div class="workb"><b>我们还能做些什么</b></div>
+  <a href="#">&nbsp; &nbsp;2016年，活动的发起方世界自然基金会（WWF）倡议公众在今晚8：30—9：30关灯一小时，加入全球行动，从身边、生活中的点滴小事做起......</a></div>
+  </div>
+  
+  <div id="down"></div>
+  
+  <div id="over">
+  <div class="school">
+  </br><b>高校名称</b>
+  </br></br>
+  哈尔滨工业大学</br></br>
+  哈尔滨工程大学</br></br>
+  哈尔滨商业大学</br></br>
+  哈尔滨理工大学</br></br>
+  东北林业大学</br></br>
+  哈尔滨师范大学</br></br>
+  东北农业大学</br></br>
+  齐齐哈尔医学院</br></br>
+  </div>
+
+ <div class="school">
+ </br><b>友情链接</b></br></br>
+  <a href="http://zgzyz.org.cn">中国青年志愿者网</a></br></br>
+  <a href="http://zy.dbw.cn">黑龙江省志愿服务平台</a></br></br>
+  <a href="http://3g.renren.com/page.do?id=600986667">哈工大学青年志愿者协会</a></br></br>
+  <a href="http://http://3g.renren.com/page.do?id=600979934">哈工程青年志愿者协会</a></br></br>
+  <a href="http://www.hsdzyz.lingw.net">哈商大青年志愿者服务中心</a></br></br>
+  <a href="http://3g.renren.com/page.do?id=601392862">东林青年志愿者总会</a></br></br>
+  <a href="http://3g.renren.com/page.do?id=600392340">哈理工校青协</a></br></br>
+  <a href="http://news.hrbcu.edu.cn">哈尔滨商业大学新闻网</a></br></br>
+  </div>
+   
+   <div class="school">
+   </br><b>意见、建议与创新</b></br></br>
+   联系我们</br></br>
+   LJGXZYFWW@sina.com</br></br>
+   欢迎广大朋友们提供</br></br>
+   志愿服务信息思考和感言</br></br>
+</div>
+
+</div>
+   <div id="logo"> <img src="img/logo2.png"></div>
+   
+   
+
+  
+  </div>
+  <script>
+var banner=document.getElementById("banner")
+   var nextimg=0
+     var url=["img/banner1.jpg","img/banner2.jpg","img/banner3.jpg"]
+	      setInterval(function(){
+               banner.src=url[nextimg++%url.length];
+			   },2000)
+ var bannerlink=document.getElementById("bannerlink")
+      var nextlink=0
+	     var link=["banner1link.html","https://www.162.com","https://www.taobao.com"]
+		   setInterval(function(){
+		   bannerlink.href=link[nextlink++%link.length];
+		   },2000)//轮播结束
+var video=document.getElementById("video-play");
+ function play(){
+     video.play()
+ }
+  function pause(){
+     video.pause()
+ }//视频控制结束，全屏未做
+  </script>
+ 
+
+</body></html>
